@@ -1,5 +1,6 @@
-body{
+*{
     margin: 0px;
+    padding: 0px;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -14,12 +15,15 @@ h1{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding left:2% ;
+    padding-left:2% ;
 
 }
 .half-width img{
     width: 100%;
     padding-left: 5%;
+}
+.half-width  p{
+    margin-bottom: 10px;
 }
 .top-banner{
     
@@ -28,26 +32,78 @@ h1{
 
 }
 section{
-    border: 10px solid purple;
-    height: 700px;
+    
     margin:5px;
+    padding-bottom: 150px;
+    clear: both;
 }
 .button{
-    text-decoration: none;
-    
-    padding:10px 20px;
-   background-image: linear-gradient(45deg, lightsalmon,tomato );
-    color: white;
-    border border-radius: 4px;
+     text-decoration: none;
+     padding:10px 20px;
+     background-image: linear-gradient(45deg, lightsalmon,tomato );
+     color: white;
+     border-radius: 4px;
+     margin-top: 30px;
+     padding-top: 10px;
+     margin-top: 10px;
 }
 .sec-half{
     width: 40%;
     float: left;
     padding-left: 5%;
     margin-left: 2%;
+    
 
 }
 .sec-half img{
     width: 100%;
-    padding-right: 5%;
+    padding:5%;
+}
+
+p{
+    color: dimgray;
+}
+.middle-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 10% 0;
+}
+.third-half{
+    width: 40%;
+    float: left;
+    padding-left: 6%;
+    margin-left: 2%;
+
+   
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.last-banner{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 10% 0;
+    
+}
+#full-stack{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg,lightsalmon,tomato) ;
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg,blue,cyan) ;
+    border-image-slice: 1;
+}
+h2{
+    padding-left: 5%;
+}
+footer p{
+    text-align: center;
+    text-size-adjust: 12px;
 }
