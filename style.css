@@ -28,7 +28,9 @@ h1{
 
 }
 section{
+    border: 10px solid purple;
     height: 700px;
+    margin:5px;
 }
 .button{
     text-decoration: none;
@@ -37,4 +39,15 @@ section{
    background-image: linear-gradient(45deg, lightsalmon,tomato );
     color: white;
     border border-radius: 4px;
+}
+.sec-half{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 2%;
+
+}
+.sec-half img{
+    width: 100%;
+    padding-right: 5%;
 }
